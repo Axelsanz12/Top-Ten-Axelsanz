@@ -1,0 +1,64 @@
+body {
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color: rgba (121,3,42,036);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(1, 7, 12);
+    text-align: center;
+    padding:10px;
+    margin-bottom: 10px;
+}
+h1:hover{
+    background-color: darkred;
+
+}
+.menu-principal li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(14, 12, 1);
+    color: aliceblue;
+    padding: 5px;  
+    margin: 5px 0;
+    list-style:none; /* Para eliminar los puntos de la lista */
+}
+.menu-principal a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+.menu-principal a:hover {
+    background-color: darkred;
+}
+
+.galeria {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding: 20px;
+    background-color: #ffffffe1;
+}
+.caja {
+    flex: 0 1 20%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #7a6565;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(230, 214, 214, 0.1);
+}
+
+.caja img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.caja p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+
+}   
